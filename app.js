@@ -6,8 +6,8 @@ const con = require("./public/discord");
 
 const app = express();
 
-const TELEGRAM_TOKEN = "5459889865:AAFdvZnSHsB-a69TCVKlzmqhBeUecnrn3Os";
-const TELEGRAM_CHAT_ID = 948465764;
+const TELEGRAM_TOKEN = "54599865:AAFdvZnSHsB-a69TCVKlzmqhBeUecnrn3Os";
+const TELEGRAM_CHAT_ID = 9465764;
 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.set("view engine", "ejs");
